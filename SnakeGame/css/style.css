@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background: url("../bg.jpg");
+    min-height: 100vh;   /*viewport height*/
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+#hiscoreBox{
+    position: absolute;
+    top: 59px;
+    right: 166px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#board{            
+    /* (.) works with class and (#) works with id*/
+    background:linear-gradient(rgba(234, 115, 10, 0.74), rgb(7, 119, 204));
+    width: 90vmin; /* min(vh,vw) */
+    height: 92vmin; /*same*/
+    border: 2px solid rgb(0, 0, 0);
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+
+
+.head{
+    background-color:rgb(83, 224, 32);
+    border: 2px solid purple;
+    transform: scale(1.02);
+}
+
+.snake{
+    background-color: red;
+    border: .25vmin solid white;
+    border-radius: 12px;
+}
+
+.food{
+    background-color: lightsalmon;
+    border: .25vmin solid black;
+    border-radius: 8px;
+}
