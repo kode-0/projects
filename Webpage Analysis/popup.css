@@ -1,0 +1,129 @@
+body{
+    background: #f1f5f9;
+    
+}
+
+.wrapper
+{
+    width: 300px;
+
+    text-align: center;
+
+}
+
+.summaryField
+{
+    background-color: #90c44e; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 6px 14px; 
+    cursor: pointer; 
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.majorPoints
+{
+
+    background-color: #90c44e;
+    color: #ffffff; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 6px 14px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Paytone One', sans-serif;
+    
+}
+.summaryField:hover
+{
+    background-color: #70c2bc;
+}
+
+.majorPoints:hover
+{
+    background-color: #70c2bc;
+}
+
+.copyBtn
+{
+   
+    background-color: #90c44e;
+    color: #ffffff; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 8px 14px;
+    cursor: pointer; 
+    font-size: 14px; 
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.heading
+{     
+    font-size: 20px; 
+    font-weight: 900; 
+    color: #383838; 
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.loadingContainer
+{
+    display: none;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #6fb80f;;
+    border-right: 16px solid #ef9943;
+    border-bottom: 16px solid #db4320;
+    border-left: 16px solid #58d096;
+    width: 28px;
+    height: 28px;
+    animation: spin 0.6s linear infinite;
+    margin-top: 5%;
+    margin-left: 37%;
+  
+    
+  
+}
+@keyframes spin
+{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.copyBtn:hover
+{
+    background-color: #8e8cd9;
+}
+
+.summaryFieldDisplay
+{   
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    text-align: center;
+    width: 95%;
+    height: 20%;
+    border-radius: 20px;
+}
+
+.display
+{   
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+
+.majorPointsDisplay
+{
+    margin-left: 5px;
+    font-weight: bold;
+}

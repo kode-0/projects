@@ -1,0 +1,26 @@
+{
+    "name": "Webpage Analysis", 
+    "description": "Provides summary and major points",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background":{
+        "service_worker":  "background.js"
+    },
+
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+
+    "action":{
+        "default_popup": "popup.html"
+    },
+
+    "icons": {
+
+        "16": "/images/picker1.png",
+        "32": "/images/picker1.png",
+        "48": "/images/picker1.png"
+    }
+}
